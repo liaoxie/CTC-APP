@@ -14,15 +14,17 @@
             </div>
             <ul class="list">
                 <li v-for="(item,index) in list" :key="index" >
-                    <div>
-                        <img src="../../assets/image/my_receivables.png" alt="">
-                    </div>
-                    <div>
-                        <p>收款方式</p>
-                    </div>
-                    <div>
-                       <img src="../../assets/image/next_black(1).png" alt="" srcset="">
-                    </div>
+                    <a href="">
+                        <div>
+                            <img src="../../assets/image/my_receivables.png" alt="">
+                        </div>
+                        <div>
+                            <p>收款方式</p>
+                        </div>
+                        <div>
+                        <img src="../../assets/image/next_black(1).png" alt="" srcset="">
+                        </div>
+                    </a>
                 </li>
             </ul>
     </div>
